@@ -832,7 +832,7 @@ typedef struct AVPacket {
     int64_t convergence_duration;
 } AVPacket;
 #define AV_PKT_FLAG_KEY   0x0001
-
+#define AV_PKT_FLAG_CORRUPT 0x0002
 /**
  * Audio Video Frame.
  * New fields can be added to the end of AVFRAME with minor version
